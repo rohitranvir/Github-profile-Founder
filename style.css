@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    
+}
+.search input{
+   
+    display: flex;
+    width: 90%;
+   max-width: 700px;
+   /* width: 500px; */
+   padding: 8px;
+   
+}
+.search{
+    display: flex;
+    
+}
+.search input:focus{
+    outline: 2px solid purple;
+    
+ }
+
+.conatiner .tex{
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+.primary-btn{
+    background-color: purple;
+    color: white;
+    padding: 8px;
+    /* border: none; */
+}
+.primary-btn:hover{
+    background-color: rgb(208, 0, 208);
+}
+.primary-btn:active{
+    background-color: rgb(240, 149, 240);
+}
+.profole-box{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px  rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    width: 90%;
+    max-width: 700px;
+
+    padding: 30px 20px;
+    transition: 0.5s ease-in;
+}
+.profole-box:hover{
+    transform: rotate(-2deg)scale(1.01);
+    transition: 0.3s ease-in;
+}
+.top-section{
+    display: flex   ;
+    justify-content: space-between;
+}
+.avatar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.self h1{
+    font-size: 16px;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+}
